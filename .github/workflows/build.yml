@@ -62,7 +62,6 @@ jobs:
     runs-on: ubuntu-latest
     needs:
       - build_linux
-      - build_windows
 
     steps:
     - uses: actions/checkout@v4
